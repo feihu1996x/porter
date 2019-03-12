@@ -1,0 +1,19 @@
+{
+  "name": "porter",
+  "version": "1.0.0",
+  "description": "> 定时自动地将硬盘上的一些文件复制到其他位置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feihu1996x/porter.git"
+  },
+  "author": "angus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feihu1996x/porter/issues"
+  },
+  "homepage": "https://github.com/feihu1996x/porter#readme"
+}
