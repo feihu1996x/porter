@@ -1,10 +1,10 @@
 {
   "name": "porter",
   "version": "1.0.0",
-  "description": "> 定时自动地将硬盘上的一些文件复制到其他位置",
-  "main": "index.js",
+  "description": "定时自动地将硬盘上的一些文件复制到其他位置",
+  "main": "porter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/feihu1996x/porter/issues"
   },
-  "homepage": "https://github.com/feihu1996x/porter#readme"
+  "homepage": "https://github.com/feihu1996x/porter#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "uuid": "^3.3.2"
+  }
 }

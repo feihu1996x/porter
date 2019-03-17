@@ -7,5 +7,8 @@
 ```bash
 # install dependecies
 npm install
+
+# run tests
+npm run test
 ```
 
